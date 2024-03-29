@@ -7,8 +7,20 @@ h1 { animation: pulse 2s infinite; }
     0%, 100% { transform: scale(1); }
     50% { transform: scale(1.2); }
 }
-ul {
-    list-style: square;
-    column-rule-color: black;
-    color: blue;
- }
+body {
+    background: linear-gradient(rgba(89, 213, 255, 0.897), white);
+}
+h2 {
+    text-align: center;
+}
+p {
+ text-align: center;
+}
+img {
+    width: 500px;
+    filter: drop-shadow(20px 5px 25px blue);
+    border-end-start-radius: 1000px;
+    border-end-end-radius: 1000px;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+}
