@@ -1,7 +1,5 @@
-body{
-    background-color: rgb(255, 255, 255); 
-}
-h1 {
+
+h1  {
     text-align: center;
 }
 h1 { animation: pulse 2s infinite; }
@@ -9,7 +7,8 @@ h1 { animation: pulse 2s infinite; }
     0%, 100% { transform: scale(1); }
     50% { transform: scale(1.2); }
 }
-image {
-    size: 200px;
-    position: center;
-}
+ul {
+    list-style: square;
+    column-rule-color: black;
+    color: blue;
+ }
