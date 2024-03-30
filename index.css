@@ -16,7 +16,7 @@ h2 {
 p {
  text-align: center;
 }
-img {
+#Imagen1 {
     width: 500px;
     filter: drop-shadow(20px 5px 25px blue);
     border-end-start-radius: 1000px;
