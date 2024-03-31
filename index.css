@@ -9,12 +9,14 @@ h1 { animation: pulse 2s infinite; }
 }
 body {
     background: linear-gradient(rgba(89, 213, 255, 0.897), white);
+    margin: 55px;
 }
 h2 {
     text-align: center;
 }
 p {
  text-align: center;
+ font-size: 18px;
 }
 #Imagen1 {
     width: 500px;
@@ -38,8 +40,11 @@ p {
     border: solid whitesmoke;
 }
 .imagenes img:hover {
-    cursor: crosshair;
+    cursor: pointer;
     width: 200px;
     opacity: 1;
     filter: contrast(120%);
+}
+div {
+    font-size: 18px
 }
