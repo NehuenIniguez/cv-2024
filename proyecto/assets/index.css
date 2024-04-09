@@ -8,7 +8,7 @@ h1 { animation: pulse 2s infinite; }
     50% { transform: scale(1.2); }
 }
 body {
-    background: linear-gradient(rgba(89, 213, 255, 0.897), white);
+    background: linear-gradient(rgb(43, 82, 255), rgb(201, 168, 255));
     margin: 55px;
 }
 h2 {
@@ -20,7 +20,7 @@ p {
 }
 #Imagen1 {
     width: 500px;
-    filter: drop-shadow(20px 5px 25px blue);
+    filter: drop-shadow(20px 5px 25px rgb(255, 255, 255));
     border-end-start-radius: 1000px;
     border-end-end-radius: 1000px;
     border-top-left-radius: 1000px;
